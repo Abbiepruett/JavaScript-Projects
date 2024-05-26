@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+.container {
+    margin: 10px;
+    justify-content: space-around;
+    width: 350px;
+    height: 150px;
+    background-color: navy;
+    border-radius: 10px;
+
+}
+
+.titles
+{
+    display: flex;
+    justify-content: center;
+}
+
+.scores{
+    display: flex;
+    width: 10px;
+    justify-content: center;
+}
+
+#h-score{
+    padding: 8px 15px;
+    margin: 0px 60px;
+    background-color: grey;
+}
+#g-score{
+    padding: 8px 15px;
+    margin: 0px 70px;
+    background-color: grey;
+}
+
+h3{
+    margin: 10px 50px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+.buttons{
+    display: flex;
+}
+
+.h-buttons{
+    margin: 20px 35px;
+}
+.g-buttons{
+    margin: 20px 30px;
+}
+
